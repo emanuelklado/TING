@@ -1,5 +1,5 @@
-from ting_file_management.queue import Queue
 from ting_file_management.file_management import txt_importer
+
 
 def process(path_file, instance):
     if len(instance) > 0:
@@ -17,6 +17,7 @@ def process(path_file, instance):
 
     print(file_formated)
     instance.enqueue(file_formated)
+
 
 def remove(instance):
     if len(instance) < 1:

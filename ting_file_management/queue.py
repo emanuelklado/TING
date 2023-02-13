@@ -22,4 +22,3 @@ class Queue(AbstractQueue):
         else:
             raise IndexError("Index out of range")
 
-
