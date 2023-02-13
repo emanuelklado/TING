@@ -21,4 +21,4 @@ class Queue(AbstractQueue):
             return self.data_queue[index]
         else:
             raise IndexError("Index out of range")
-
+            
